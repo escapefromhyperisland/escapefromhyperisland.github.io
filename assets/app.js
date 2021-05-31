@@ -56,3 +56,12 @@ function showLevel() {
 function gameOver() {
 	alert('Game Over!');
 }
+// Courtesy of https://stackoverflow.com/questions/25098021/securityerror-blocked-a-frame-with-origin-from-accessing-a-cross-origin-frame
+window.addEventListener('message', function (event) {
+	console.log(event);
+	switch (event.data) {
+		case 'nextLevel':
+			nextLevel();
+			break;
+	}
+});
