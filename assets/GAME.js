@@ -3,31 +3,24 @@ const GAME = {
 	order: null,
 	worlds: [
 		{
-			title: 'Corel Area',
+			title: 'world 1',
 			startPage: null,
 			order: null,
 			levels: [
 				{
-					title: 'Costa del Sol',
+					title: 'level 1',
 					completed: false,
+					url: 'https://escapefromhyperisland.github.io/sample-world/level-1',
 				},
 				{
-					title: 'Mt. Corel',
+					title: 'level 2',
 					completed: false,
-				},
-			],
-		},
-		{
-			title: 'Grasslands Area',
-			order: [1, 0],
-			levels: [
-				{
-					title: 'Chocobo Farm',
-					completed: false,
+					url: 'https://escapefromhyperisland.github.io/sample-world/level-2',
 				},
 				{
-					title: 'Marshes',
+					title: 'level 3',
 					completed: false,
+					url: 'https://escapefromhyperisland.github.io/sample-world/level-3',
 				},
 			],
 		},

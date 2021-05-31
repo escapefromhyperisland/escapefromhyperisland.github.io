@@ -47,7 +47,7 @@ function nextLevel() {
 function showLevel() {
 	const worldSlug = currWorld.title.slugify('-');
 	const levelSlug = currLevel.title.slugify('-');
-	const path = `worlds/${worldSlug}/${levelSlug}/index.html`;
+	const path = currLevel.url || `worlds/${worldSlug}/${levelSlug}/index.html`;
 	$level.src = new URL(path, window.location.href);
 	document.title = `${currWorld.title} - ${currLevel.title}`;
 	console.log($level.src);
