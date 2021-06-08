@@ -5,6 +5,8 @@ console.log(GAME);
 let currWorld, currLevel;
 const $level = document.querySelector('#level');
 const LOCAL = false;
+const LOCAL_URL = 'http://localhost:8080';
+const PUBLIC_URL = 'https://escapefromhyperisland.github.io';
 
 startGameBtn.addEventListener('click', startGame);
 
@@ -55,11 +57,7 @@ function nextLevel() {
 function showLevel() {
 	const worldSlug = currWorld.title.slugify('-');
 	const levelSlug = currLevel.title.slugify('-');
-	if (LOCAL)
-		currLevel.url = currLevel.url.replace(
-			'https://escapefromhyperisland.github.io',
-			'http://localhost:8080'
-		);
+	if (LOCAL) currLevel.url = currLevel.url.replace(PUBLIC_URL, LOCAL_URL);
 	const path = currLevel.url || `worlds/${worldSlug}/${levelSlug}/index.html`;
 	$level.src = new URL(path, window.location.href);
 	document.title = `${currWorld.title} - ${currLevel.title}`;
