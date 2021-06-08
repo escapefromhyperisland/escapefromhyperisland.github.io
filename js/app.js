@@ -1,29 +1,25 @@
 import { GAME } from './GAME.js';
 
-console.log(GAME);
-
 let currWorld, currLevel;
+
 const $level = document.querySelector('#level');
 const LOCAL = false;
 const LOCAL_URL = 'http://localhost:8080';
 const PUBLIC_URL = 'https://escapefromhyperisland.github.io';
 
-const id = location.href
-	? location.href.split('?')[1]
-	: location.search.slice(1);
-switch (id) {
-	case 'all':
-		break;
-	case 1:
-	case 2:
-	case 3:
-	case 4:
-	case 5:
-	case 7:
-	case 8:
-		GAME.worlds = [GAME.worlds[id]];
-		break;
+const urlParams = new URLSearchParams(window.location.search);
+const worldIndex = urlParams.get('world');
+const levelIndex = urlParams.get('level');
+
+console.log(worldIndex, levelIndex);
+
+if (worldIndex !== null) {
+	GAME.worlds = [GAME.worlds[worldIndex]];
+	if (levelIndex !== null)
+		GAME.worlds[0].levels = [GAME.worlds[0].levels[levelIndex]];
 }
+
+console.log(GAME);
 
 startGameBtn.addEventListener('click', startGame);
 
