@@ -19,8 +19,8 @@ const WORLD = {
 			url: 'https://fannyjohaaansson.github.io/escape-room/',
 		},
 		{
-			title: 'level 5',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-3',
+			title: 'Itsy Bitsy Space',
+			url: 'https://bitsy.frennert.com/',
 		},
 		{
 			title: 'level 6',
