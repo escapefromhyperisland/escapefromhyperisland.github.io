@@ -3,16 +3,16 @@ const WORLD = {
 	order: [0,1,2,3,4,5]
 	levels: [
 		{
-			title: 'level 1',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-1',
+			title: 'Hack the Vault',
+			url: 'https://space-game-level01.netlify.app/',
 		},
 		{
-			title: 'level 2',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-2',
+			title: 'Star Bores',
+			url: 'https://adam-space-game.netlify.app/',
 		},
 		{
-			title: 'level 3',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-3',
+			title: 'Foggy Forest',
+			url: ' https://ebbaj.github.io/a-frame-foggy-forest/',
 		},
 		{
 			title: 'The cabbin',
