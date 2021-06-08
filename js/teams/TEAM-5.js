@@ -1,7 +1,11 @@
 const WORLD = {
 	title: 'Escape from Pleasantville',
-	order: [0,1,2,3,4,5], 
+	order: [0,1,2,3,4,5,6], 
 	levels: [
+		{
+			title: 'The Intro',
+			url: 'https://escapefromhyperisland.github.io/pleasantville/level-0',
+		},
 		{
 			title: 'The Hotel',
 			url: 'https://escapefromhyperisland.github.io/pleasantville/level-1',
