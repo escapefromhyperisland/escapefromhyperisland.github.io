@@ -1,7 +1,14 @@
+import { GAME } from './GAME.js';
+
+console.log(GAME);
+
 let currWorld, currLevel;
 const $level = document.querySelector('#level');
 
+startGameBtn.addEventListener('click', startGame);
+
 function startGame() {
+	navigator.mediaDevices.getUserMedia({ video: true, audio: true });
 	setup();
 	showLevel();
 	console.log('currWorld', currWorld);
@@ -47,7 +54,8 @@ function nextLevel() {
 function showLevel() {
 	const worldSlug = currWorld.title.slugify('-');
 	const levelSlug = currLevel.title.slugify('-');
-	const path = currLevel.url || `worlds/${worldSlug}/${levelSlug}/index.html`;
+	const path =
+		currLevel.local_url || `worlds/${worldSlug}/${levelSlug}/index.html`;
 	$level.src = new URL(path, window.location.href);
 	document.title = `${currWorld.title} - ${currLevel.title}`;
 	console.log($level.src);

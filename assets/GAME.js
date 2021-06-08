@@ -1,31 +1,15 @@
+import { WORLD as WORLD_1 } from './teams/TEAM-1.js';
+import { WORLD as WORLD_2 } from './teams/TEAM-2.js';
+import { WORLD as WORLD_3 } from './teams/TEAM-3.js';
+import { WORLD as WORLD_4 } from './teams/TEAM-4.js';
+import { WORLD as WORLD_5 } from './teams/TEAM-5.js';
+import { WORLD as WORLD_7 } from './teams/TEAM-7.js';
+import { WORLD as WORLD_8 } from './teams/TEAM-8.js';
+
 const GAME = {
 	title: 'Escape from Hyper Island',
 	order: null,
-	worlds: [
-		{
-			title: 'world 1',
-			startPage: null,
-			order: null,
-			levels: [
-				{
-					title: 'level 1',
-					completed: false,
-					// url: 'http://localhost:8080/sample-world/level-1',
-					url: 'https://escapefromhyperisland.github.io/sample-world/level-1',
-				},
-				{
-					title: 'level 2',
-					completed: false,
-					// url: 'http://localhost:8080/sample-world/level-2',
-					url: 'https://escapefromhyperisland.github.io/sample-world/level-2',
-				},
-				{
-					title: 'level 3',
-					completed: false,
-					// url: 'http://localhost:8080/sample-world/level-3',
-					url: 'https://escapefromhyperisland.github.io/sample-world/level-3',
-				},
-			],
-		},
-	],
+	worlds: [WORLD_1, WORLD_2, WORLD_3, WORLD_4, WORLD_5, WORLD_7, WORLD_8],
 };
+
+export { GAME };
