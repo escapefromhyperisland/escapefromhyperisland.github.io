@@ -1,18 +1,30 @@
 const WORLD = {
-	title: 'team 5',
-	order: null, // [0,1,2]
+	title: 'Escape from Pleasantville',
+	order: [0,1,2,3,4,5], 
 	levels: [
 		{
-			title: 'level 1',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-1',
+			title: 'The Hotel',
+			url: 'https://escapefromhyperisland.github.io/game/pleasantville/level-1',
 		},
 		{
-			title: 'level 2',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-2',
+			title: 'The Dream',
+			url: 'https://escapefromhyperisland.github.io/game/pleasantville/level-2',
 		},
 		{
-			title: 'level 3',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-3',
+			title: 'The Old Lady',
+			url: 'https://escapefromhyperisland.github.io/game/pleasantville/level-3',
+		},
+		{
+			title: 'The Maze',
+			url: 'https://escapefromhyperisland.github.io/game/pleasantville/level-4',
+		},
+		{
+			title: 'The Medium',
+			url: 'https://escapefromhyperisland.github.io/game/pleasantville/level-5',
+		},
+		{
+			title: 'The End',
+			url: 'https://escapefromhyperisland.github.io/game/pleasantville/level-6',
 		},
 	],
 };
