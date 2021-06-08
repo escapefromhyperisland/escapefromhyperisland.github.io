@@ -8,6 +8,23 @@ const LOCAL = false;
 const LOCAL_URL = 'http://localhost:8080';
 const PUBLIC_URL = 'https://escapefromhyperisland.github.io';
 
+const id = location.href
+	? location.href.split('?')[1]
+	: location.search.slice(1);
+switch (id) {
+	case 'all':
+		break;
+	case 1:
+	case 2:
+	case 3:
+	case 4:
+	case 5:
+	case 7:
+	case 8:
+		GAME.worlds = [GAME.worlds[id]];
+		break;
+}
+
 startGameBtn.addEventListener('click', startGame);
 
 function startGame() {
