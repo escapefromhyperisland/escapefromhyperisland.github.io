@@ -73,10 +73,10 @@ function showLevel() {
 	const worldSlug = currWorld.title.slugify('-');
 	const levelSlug = currLevel.title.slugify('-');
 	if (LOCAL) currLevel.url = currLevel.url.replace(PUBLIC_URL, LOCAL_URL);
-	const path = currLevel.url || `worlds/${worldSlug}/${levelSlug}/index.html`;
+	const path = currLevel.url;
 	$level.src = new URL(path, window.location.href);
 	document.title = `${currWorld.title} - ${currLevel.title}`;
-	console.log($level.src);
+	// console.log($level.src);
 }
 
 function gameOver() {
