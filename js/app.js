@@ -94,4 +94,4 @@ window.addEventListener('message', function (event) {
 });
 
 startGame();
-nextLevel();
+// nextLevel();
