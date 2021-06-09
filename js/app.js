@@ -8,30 +8,30 @@ const LOCAL_URL = 'http://localhost:8080';
 const PUBLIC_URL = 'https://escapefromhyperisland.github.io';
 
 const urlParams = new URLSearchParams(window.location.search);
-let worldIndex = parseInt(urlParams.get('world'));
-let levelIndex = parseInt(urlParams.get('level'));
+let worldIndex = urlParams.get('world');
+let levelIndex = urlParams.get('level');
 
 switch (worldIndex) {
-	case 1:
+	case '1':
 		worldIndex = 0;
 		break;
-	case 2:
+	case '2':
 		worldIndex = 1;
 		break;
-	case 3:
+	case '3':
 		worldIndex = 2;
 		break;
-	case 4:
+	case '4':
 		worldIndex = 3;
 		break;
-	case 5:
+	case '5':
 		worldIndex = 4;
 		break;
-	case 7:
+	case '7':
 		worldIndex = 6;
 		break;
-	case 7:
-		worldIndex = 8;
+	case '8':
+		worldIndex = 7;
 		break;
 }
 
