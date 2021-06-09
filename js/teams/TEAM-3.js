@@ -16,6 +16,10 @@ const WORLD = {
 			title: 'monsters under the bed ',
 			url: 'https://sumanasattar.github.io/A-frame-project/',
 		},
+		{
+			title: 'candy-world ',
+			url: 'http://www.supipi.nu/candy-world/',
+		},
 		
 		
 	],
