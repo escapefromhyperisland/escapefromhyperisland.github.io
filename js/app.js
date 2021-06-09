@@ -21,9 +21,11 @@ if (worldIndex !== null) {
 
 console.log(GAME);
 
-startGameBtn.addEventListener('click', startGame);
+// startGameBtn.addEventListener('click', startGame);
 
 function startGame() {
+	let landing = document.querySelector('#landing');
+	landing.parentNode.removeChild(landing);
 	navigator.mediaDevices.getUserMedia({ video: true, audio: true });
 	setup();
 	showLevel();
@@ -89,3 +91,9 @@ window.addEventListener('message', function (event) {
 			break;
 	}
 });
+
+d.onclick = function (e) {
+	this.parentNode.removeChild(this);
+};
+
+startGame();
