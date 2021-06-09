@@ -28,10 +28,10 @@ switch (worldIndex) {
 		worldIndex = 4;
 		break;
 	case '7':
-		worldIndex = 6;
+		worldIndex = 5;
 		break;
 	case '8':
-		worldIndex = 7;
+		worldIndex = 6;
 		break;
 }
 
