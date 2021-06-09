@@ -8,7 +8,7 @@ const WORLD = {
 		},
 		{
 			title: 'level 2',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-2',
+			url: 'https://thebutton-level2.netlify.app/',
 		},
 		{
 			title: 'level 3',
