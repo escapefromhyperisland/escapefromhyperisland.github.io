@@ -39,6 +39,7 @@ console.log(`worldIndex: ${worldIndex}, levelIndex: ${levelIndex}`);
 console.log(GAME);
 
 // startGameBtn.addEventListener('click', startGame);
+nextLevelBtn.addEventListener('click', nextLevel);
 
 function startGame() {
 	// let landing = document.querySelector('#landing');
