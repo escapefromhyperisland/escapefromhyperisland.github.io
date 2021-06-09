@@ -6,7 +6,7 @@ const WORLD = {
 	levels: [
 		{
 			title: 'level 1',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-1',
+			url: 'https://github.com/escapefromhyperisland/escapeFromHI',
 		},
 		{
 			title: 'level 2',
