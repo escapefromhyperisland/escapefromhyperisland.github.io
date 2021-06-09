@@ -6,15 +6,7 @@ const WORLD = {
 	levels: [
 		{
 			title: 'Vaccisimulation',
-			url: 'https://github.com/escapefromhyperisland/escapeFromHI',
-		},
-		{
-			title: 'level 2',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-2',
-		},
-		{
-			title: 'level 3',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-3',
+			url: 'https://escapefromhyperisland.github.io/escapeFromHI/',
 		},
 	],
 };
