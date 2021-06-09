@@ -16,6 +16,10 @@ const WORLD = {
 			title: 'level 3',
 			url: 'https://emmy-codes.github.io/puzzle-game/',
 		},
+		{
+			title: 'level 4',
+			url: 'https://aleksandraastaroth.github.io/tiny-nightmares/',
+		},
 	],
 };
 
