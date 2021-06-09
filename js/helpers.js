@@ -1,4 +1,4 @@
-function arr(max) {
+function rarr(max) {
 	var arr = [];
 	while (arr.length < max) {
 		var r = Math.floor(Math.random() * max);

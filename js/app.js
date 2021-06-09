@@ -34,9 +34,9 @@ function startGame() {
 }
 
 function setup() {
-	if (GAME.order === null) GAME.order = arr(GAME.worlds.length);
+	if (GAME.order === 'random') GAME.order = rarr(GAME.worlds.length);
 	for (let world of GAME.worlds) {
-		if (world.order === null) world.order = arr(world.levels.length);
+		if (world.order === 'random') world.order = rarr(world.levels.length);
 	}
 	currWorld = getWorld();
 	let levelIndex = currWorld.order[0];
