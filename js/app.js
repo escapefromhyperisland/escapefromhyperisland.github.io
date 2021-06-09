@@ -41,8 +41,8 @@ console.log(GAME);
 // startGameBtn.addEventListener('click', startGame);
 
 function startGame() {
-	let landing = document.querySelector('#landing');
-	landing.parentNode.removeChild(landing);
+	// let landing = document.querySelector('#landing');
+	// landing.parentNode.removeChild(landing);
 	navigator.mediaDevices.getUserMedia({ video: true, audio: true });
 	init();
 	setup();
