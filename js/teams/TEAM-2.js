@@ -4,7 +4,7 @@ const WORLD = {
   levels: [
     {
       title: "Hack the Vault",
-      url: "https://space-game-level01.netlify.app/",
+      url: "https://escapefromhyperisland.github.io/world2-level1/",
     },
     {
       title: "Star Bores",
