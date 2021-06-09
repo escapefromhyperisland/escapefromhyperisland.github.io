@@ -1,6 +1,6 @@
 const WORLD = {
 	title: 'team 7',
-	order: null, // [0,1,2]
+	order: [0],
 	credits: '',
 	description: '',
 	levels: [
