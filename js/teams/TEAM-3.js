@@ -9,16 +9,16 @@ const WORLD = {
 			url: 'https://escapefromhyperisland.github.io/world-3/',
 		},
 		{
+			title: 'Dizzy dreams',
+			url: 'https://sofiacronstrom.github.io/dizzy-dream/',
+		},
+		{
 			title: 'mordor ',
 			url: 'https://mithila91.github.io/Mordor/',
 		},
 		{
 			title: 'monsters under the bed ',
 			url: 'https://sumanasattar.github.io/A-frame-project/',
-		},
-		{
-			title: 'candy-world ',
-			url: 'http://www.supipi.nu/candy-world/',
 		},
 		
 		
