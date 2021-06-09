@@ -22,7 +22,7 @@ const WORLD = {
 		},
 		{
 			title: 'Itsy Bitsy Space',
-			url: 'https://bitsy.frennert.com/',
+			url: 'https://escapefromhyperisland.github.io/world-2/level-5/',
 		},
 		{
 			title: 'Fly Back',
