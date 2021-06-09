@@ -14,7 +14,7 @@ const WORLD = {
 		},
 		{
 			title: 'Foggy Forest',
-			url: ' https://ebbaj.github.io/a-frame-foggy-forest/',
+			url: 'https://ebbaj.github.io/a-frame-foggy-forest/',
 		},
 		{
 			title: 'The cabbin',
