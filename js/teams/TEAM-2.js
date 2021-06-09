@@ -1,6 +1,5 @@
 const WORLD = {
 	title: 'Escaping HI-22',
-	order: [0, 1, 2, 3, 4, 5],
 	levels: [
 		{
 			title: 'Hack the Vault',

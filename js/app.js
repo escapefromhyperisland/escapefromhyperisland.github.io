@@ -11,14 +11,31 @@ const urlParams = new URLSearchParams(window.location.search);
 const worldIndex = urlParams.get('world');
 const levelIndex = urlParams.get('level');
 
-console.log(worldIndex, levelIndex);
-
-if (worldIndex !== null) {
-	GAME.worlds = [GAME.worlds[worldIndex]];
-	if (levelIndex !== null)
-		GAME.worlds[0].levels = [GAME.worlds[0].levels[levelIndex]];
+switch (worldIndex) {
+	case 1:
+		worldIndex = 0;
+		break;
+	case 2:
+		worldIndex = 1;
+		break;
+	case 3:
+		worldIndex = 2;
+		break;
+	case 4:
+		worldIndex = 3;
+		break;
+	case 5:
+		worldIndex = 4;
+		break;
+	case 7:
+		worldIndex = 6;
+		break;
+	case 7:
+		worldIndex = 8;
+		break;
 }
 
+console.log(`worldIndex: ${worldIndex}, levelIndex: ${levelIndex}`);
 console.log(GAME);
 
 // startGameBtn.addEventListener('click', startGame);
@@ -27,17 +44,37 @@ function startGame() {
 	let landing = document.querySelector('#landing');
 	landing.parentNode.removeChild(landing);
 	navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+	init();
 	setup();
 	showLevel();
 	console.log('currWorld', currWorld);
 	console.log('currLevel', currLevel);
 }
 
-function setup() {
-	if (GAME.order === 'random') GAME.order = rarr(GAME.worlds.length);
-	for (let world of GAME.worlds) {
-		if (world.order === 'random') world.order = rarr(world.levels.length);
+function init() {
+	if (worldIndex !== null) {
+		GAME.worlds = [GAME.worlds[worldIndex]];
+		if (levelIndex !== null)
+			GAME.worlds[0].levels = [GAME.worlds[0].levels[levelIndex]];
 	}
+
+	if (GAME.order === 'random') {
+		GAME.order = rarr(GAME.worlds.length);
+	} else {
+		GAME.order = [];
+		GAME.worlds.forEach((world, index) => {
+			GAME.order[index] = index;
+		});
+	}
+	for (let world of GAME.worlds) {
+		world.order = [];
+		world.levels.forEach((level, index) => {
+			world.order[index] = index;
+		});
+	}
+}
+
+function setup() {
 	currWorld = getWorld();
 	let levelIndex = currWorld.order[0];
 	currLevel = currWorld.levels[levelIndex];

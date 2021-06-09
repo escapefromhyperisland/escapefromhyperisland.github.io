@@ -1,6 +1,5 @@
 const WORLD = {
 	title: 'Team 7',
-	order: [0],
 	levels: [
 		{
 			title: 'Vaccisimulation',

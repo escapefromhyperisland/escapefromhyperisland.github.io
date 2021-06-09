@@ -8,7 +8,7 @@ import { WORLD as WORLD_8 } from './teams/TEAM-8.js';
 
 const GAME = {
 	title: 'Escape from Hyper Island',
-	order: null,
+	// order: null,
 	worlds: [WORLD_1, WORLD_2, WORLD_3, WORLD_4, WORLD_5, WORLD_7, WORLD_8],
 };
 

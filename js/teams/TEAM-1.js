@@ -1,9 +1,8 @@
 const WORLD = {
-	title: 'team 1',
-	order: [0, 1, 2],
+	title: 'Team 1',
 	levels: [
 		{
-			title: 'level 1',
+			title: 'Level 1',
 			url: 'https://augustthorell.github.io/three-cube/',
 			author: {
 				name: '',
@@ -11,7 +10,7 @@ const WORLD = {
 			},
 		},
 		{
-			title: 'level 2',
+			title: 'Level 2',
 			url: 'https://escape-from-hi.herokuapp.com/',
 			author: {
 				name: '',
@@ -19,7 +18,7 @@ const WORLD = {
 			},
 		},
 		{
-			title: 'level 3',
+			title: 'Level 3',
 			url: 'https://matildabjorken.github.io/level3/',
 			author: {
 				name: '',
