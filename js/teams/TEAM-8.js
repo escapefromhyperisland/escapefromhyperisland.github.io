@@ -1,18 +1,22 @@
 const WORLD = {
-	title: 'team 8',
-	order: null, // [0,1,2]
+	title: 'The Button',
+	order: [0,1,2,3],
 	levels: [
 		{
-			title: 'level 1',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-1',
+			title: 'The Wake Up',
+			url: 'https://escapefromhyperisland.github.io/world-8/cece/',
 		},
 		{
-			title: 'level 2',
-			url: 'https://thebutton-level2.netlify.app/',
+			title: 'The Family House',
+			url: 'https://escapefromhyperisland.github.io/world8-level2/',
 		},
 		{
-			title: 'level 3',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-3',
+			title: 'The Factory',
+			url: 'https://escapefromhyperisland.github.io/world-8/malin/',
+		},
+		{
+			title: 'The Headquarters',
+			url: 'https://escapefromhyperisland.github.io/world-8/elin/',
 		},
 	],
 };
