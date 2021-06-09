@@ -8,8 +8,8 @@ const LOCAL_URL = 'http://localhost:8080';
 const PUBLIC_URL = 'https://escapefromhyperisland.github.io';
 
 const urlParams = new URLSearchParams(window.location.search);
-const worldIndex = parseInt(urlParams.get('world'));
-const levelIndex = parseInt(urlParams.get('level'));
+let worldIndex = parseInt(urlParams.get('world'));
+let levelIndex = parseInt(urlParams.get('level'));
 
 switch (worldIndex) {
 	case 1:
