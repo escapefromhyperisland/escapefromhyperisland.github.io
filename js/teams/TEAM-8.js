@@ -1,6 +1,8 @@
 const WORLD = {
 	title: 'The Button',
-	order: [0,1,2,3],
+	order: [0, 1, 2, 3],
+	credits: '',
+	description: '',
 	levels: [
 		{
 			title: 'The Wake Up',

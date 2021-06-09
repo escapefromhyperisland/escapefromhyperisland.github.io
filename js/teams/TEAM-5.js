@@ -1,6 +1,8 @@
 const WORLD = {
 	title: 'Escape from Pleasantville',
-	order: [0,1,2,3,4,5,6], 
+	order: [0, 1, 2, 3, 4, 5, 6],
+	credits: '',
+	description: '',
 	levels: [
 		{
 			title: 'The Intro',
