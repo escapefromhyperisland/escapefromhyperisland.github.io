@@ -26,7 +26,7 @@ const WORLD = {
 		},
 		{
 			title: 'Fly Back',
-			url: 'https://escapefromhyperisland.github.io/world2-level6//',
+			url: 'https://hi-22.herokuapp.com/',
 		},
 	],
 };
