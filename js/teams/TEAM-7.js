@@ -5,7 +5,7 @@ const WORLD = {
 	description: '',
 	levels: [
 		{
-			title: 'level 1',
+			title: 'Vaccisimulation',
 			url: 'https://github.com/escapefromhyperisland/escapeFromHI',
 		},
 		{
