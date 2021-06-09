@@ -14,7 +14,7 @@ const WORLD = {
 		},
 		{
 			title: 'level 3',
-			url: 'https://escapefromhyperisland.github.io/game/sample-world/level-3',
+			url: 'https://emmy-codes.github.io/puzzle-game/',
 		},
 	],
 };
