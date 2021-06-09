@@ -9,6 +9,10 @@ const WORLD = {
 			url: 'https://escapefromhyperisland.github.io/world-3/',
 		},
 		{
+			title: 'mordor ',
+			url: 'https://mithila91.github.io/Mordor/',
+		},
+		{
 			title: 'monsters under the bed ',
 			url: 'https://sumanasattar.github.io/A-frame-project/',
 		},
