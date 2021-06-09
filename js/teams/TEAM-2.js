@@ -14,7 +14,7 @@ const WORLD = {
 		},
 		{
 			title: 'Foggy Forest',
-			url: 'https://ebbaj.github.io/a-frame-foggy-forest/',
+			url: 'https://escapefromhyperisland.github.io/world2-level3/',
 		},
 		{
 			title: 'The cabbin',
