@@ -92,8 +92,4 @@ window.addEventListener('message', function (event) {
 	}
 });
 
-d.onclick = function (e) {
-	this.parentNode.removeChild(this);
-};
-
 startGame();
