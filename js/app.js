@@ -27,6 +27,9 @@ switch (worldIndex) {
 	case '5':
 		worldIndex = 4;
 		break;
+	case '6':
+		alert('Nope.');
+		break;
 	case '7':
 		worldIndex = 5;
 		break;
