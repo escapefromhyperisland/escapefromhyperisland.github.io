@@ -20,6 +20,10 @@ const WORLD = {
 			title: 'hopis-nighmare ',
 			url: 'https://hyperhopi.github.io/hopis-nightmare/',
 		},
+                 {
+			title: 'spaces',
+			url: 'https://hamiat.github.io/spaces/index.html',
+		},
 		{
 			title: 'monsters under the bed ',
 			url: 'https://sumanasattar.github.io/A-frame-project/',
