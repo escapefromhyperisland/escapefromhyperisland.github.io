@@ -43,7 +43,7 @@ const WORLD = {
 		},
 		{
 			title: 'monsters under the bed ',
-			url: 'https://sumanasattar.github.io/A-frame-project/',
+			url: 'https://escapefromhyperisland.github.io/A-frame-project/',
 			author: {
 				name: '',
 				link: '',
