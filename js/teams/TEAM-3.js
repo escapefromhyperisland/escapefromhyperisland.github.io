@@ -19,7 +19,7 @@ const WORLD = {
 		},
 		{
 			title: 'mordor ',
-			url: 'https://mithila91.github.io/Mordor/',
+			url: 'https://escapefromhyperisland.github.io/Mordor/',
 			author: {
 				name: '',
 				link: '',
