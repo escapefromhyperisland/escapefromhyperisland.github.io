@@ -45,7 +45,7 @@ const WORLD = {
 			title: 'monsters under the bed ',
 			url: 'https://escapefromhyperisland.github.io/A-frame-project/',
 			author: {
-				name: '',
+				name: 'Sumana Sattar',
 				link: '',
 			},
 		},
