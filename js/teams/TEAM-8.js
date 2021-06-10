@@ -30,8 +30,8 @@ const WORLD = {
 			title: 'The Headquarters',
 			url: 'https://escapefromhyperisland.github.io/world-8/elin/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Elin Nordin',
+				link: 'www.elinnordin.com',
 			},
 		},
 	],
