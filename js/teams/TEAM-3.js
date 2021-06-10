@@ -38,7 +38,7 @@ const WORLD = {
 			url: 'https://escapefromhyperisland.github.io/spaces/',
 			author: {
 				name: 'Hamiat Nalwanga',
-				link: '',
+				link: 'https://www.linkedin.com/in/hamiat-nalwanga-b5a93bb1/',
 			},
 		},
 		{
