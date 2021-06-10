@@ -53,8 +53,8 @@ const WORLD = {
 			title: 'candy land ',
 			url: 'https://escapefromhyperisland.github.io/candy-world/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Supipi Algama',
+				link: 'https://www.linkedin.com/in/supipis/',
 			},
 		},
 	],
