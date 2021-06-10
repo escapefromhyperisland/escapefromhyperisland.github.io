@@ -2,7 +2,7 @@ const WORLD = {
 	title: 'Adobe World',
 	levels: [
 		{
-			title: 'Level 1',
+			title: 'Drive for Photoshop',
 			url: 'https://escapefromhyperisland.github.io/adobe-world/level-1',
 			author: {
 				name: '',
