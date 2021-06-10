@@ -3,7 +3,7 @@ const WORLD = {
 	levels: [
 		{
 			title: 'Level 1',
-			url: 'https://augustthorell.github.io/three-cube/',
+			url: 'https://escapefromhyperisland.github.io/adobe-world/level-1',
 			author: {
 				name: '',
 				link: '',
