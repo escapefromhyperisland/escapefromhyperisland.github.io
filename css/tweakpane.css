@@ -35,7 +35,7 @@ body .tp-dfwv {
 	text-transform: capitalize;
 }
 
-body .tp-dfwv:not(:hover) {
+.tp-dfwv:not(:hover) {
 	opacity: 0.5;
 	mix-blend-mode: hard-light;
 }
