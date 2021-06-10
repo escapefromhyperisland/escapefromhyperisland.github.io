@@ -45,8 +45,8 @@ const WORLD = {
 			title: 'The Medium',
 			url: 'https://escapefromhyperisland.github.io/pleasantville/level-5',
 			author: {
-				name: '',
-				link: '',
+				name: 'Anna Roos',
+				link: 'https://github.com/AnnaRoos',
 			},
 		},
 		{
