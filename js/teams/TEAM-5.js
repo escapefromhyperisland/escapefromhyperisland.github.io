@@ -53,8 +53,8 @@ const WORLD = {
 			title: 'The End',
 			url: 'https://escapefromhyperisland.github.io/pleasantville/level-6',
 			author: {
-				name: '',
-				link: '',
+				name: 'Neha Hirve',
+				link: 'https://nehahirve.github.io/',
 			},
 		},
 	],
