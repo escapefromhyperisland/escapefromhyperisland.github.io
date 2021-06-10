@@ -13,8 +13,8 @@ const WORLD = {
 			title: 'Dizzy dreams',
 			url: 'https://escapefromhyperisland.github.io/dizzy-dream/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Sofia Cronström',
+				link: 'https://www.linkedin.com/in/sofia-cronstr%C3%B6m-080a4998/',
 			},
 		},
 		{
