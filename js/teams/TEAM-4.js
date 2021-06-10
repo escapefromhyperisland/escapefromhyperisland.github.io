@@ -2,11 +2,11 @@ const WORLD = {
 	title: 'Team 4',
 	levels: [
 		{
-			title: 'Level 3',
+			title: 'The sleep demon',
 			url: 'https://emmy-codes.github.io/puzzle-game/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Emma Scott-Allen',
+				link: 'https://www.linkedin.com/in/emma-scott-allen-86b7a6140/',
 			},
 		},
 		{
