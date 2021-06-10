@@ -35,7 +35,7 @@ const WORLD = {
 		},
 		{
 			title: 'spaces',
-			url: 'https://hamiat.github.io/spaces/index.html',
+			url: 'https://escapefromhyperisland.github.io/spaces/',
 			author: {
 				name: '',
 				link: '',
