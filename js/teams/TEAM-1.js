@@ -1,5 +1,5 @@
 const WORLD = {
-	title: 'Team 1',
+	title: 'Adobe World',
 	levels: [
 		{
 			title: 'Level 1',
