@@ -6,6 +6,7 @@ const $level = document.querySelector('#level');
 const LOCAL = false;
 const LOCAL_URL = 'http://localhost:8080';
 const PUBLIC_URL = 'https://escapefromhyperisland.github.io';
+const TRANSITION_TIME = 2000;
 
 const urlParams = new URLSearchParams(window.location.search);
 let worldIndex = urlParams.get('world');
@@ -53,6 +54,9 @@ function startGame() {
 	showLevel();
 	console.log('currWorld', currWorld);
 	console.log('currLevel', currLevel);
+	setTimeout(function () {
+		document.body.classList.remove('transition');
+	}, TRANSITION_TIME);
 }
 
 function init() {
@@ -95,29 +99,33 @@ function getLevel() {
 }
 
 function nextLevel() {
-	currWorld.order.shift();
-	if (currWorld.order.length === 0 && GAME.order.length === 1) {
-		gameOver();
-	} else {
-		if (currWorld.order.length === 0) {
-			GAME.order.shift();
-			currWorld = getWorld();
+	document.body.classList.add('transition');
+	setTimeout(function () {
+		currWorld.order.shift();
+		if (currWorld.order.length === 0 && GAME.order.length === 1) {
+			gameOver();
+		} else {
+			if (currWorld.order.length === 0) {
+				GAME.order.shift();
+				currWorld = getWorld();
+			}
+			currLevel = getLevel();
+			showLevel();
 		}
-		currLevel = getLevel();
-		showLevel();
-	}
-	console.log('currWorld', currWorld);
-	console.log('currLevel', currLevel);
+		console.log('currWorld', currWorld);
+		console.log('currLevel', currLevel);
+	}, TRANSITION_TIME / 2);
 }
 
 function showLevel() {
-	const worldSlug = currWorld.title.slugify('-');
-	const levelSlug = currLevel.title.slugify('-');
 	if (LOCAL) currLevel.url = currLevel.url.replace(PUBLIC_URL, LOCAL_URL);
 	const path = currLevel.url;
 	$level.src = new URL(path, window.location.href);
 	document.title = `${currWorld.title} - ${currLevel.title}`;
 	// console.log($level.src);
+	setTimeout(function () {
+		document.body.classList.remove('transition');
+	}, TRANSITION_TIME);
 }
 
 function gameOver() {

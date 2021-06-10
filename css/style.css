@@ -13,6 +13,25 @@ iframe {
 	height: 100%;
 }
 
+body:before {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0;
+	will-change: opacity;
+	transition: 500ms ease-in-out;
+	z-index: -1;
+	content: '';
+}
+
+body.transition:before {
+	opacity: 1;
+	z-index: 1;
+}
+
 button#nextLevelBtn {
 	position: fixed;
 	bottom: 1rem;
