@@ -21,8 +21,8 @@ const WORLD = {
 			title: 'mordor ',
 			url: 'https://escapefromhyperisland.github.io/Mordor/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Mithila Ahmed',
+				link: 'https://www.linkedin.com/in/mithila-ahmed-aa562353/',
 			},
 		},
 		{
