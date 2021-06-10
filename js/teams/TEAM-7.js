@@ -9,6 +9,14 @@ const WORLD = {
 				link: '',
 			},
 		},
+		{
+			title: 'Cubesurfers',
+			url: 'https://escapefromhyperisland.github.io/Cubesurfers/',
+			author: {
+				name: '',
+				link: '',
+			},
+		},
 	],
 };
 
