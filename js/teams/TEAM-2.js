@@ -5,8 +5,8 @@ const WORLD = {
 			title: 'Hack the Vault',
 			url: 'https://escapefromhyperisland.github.io/world2-level1/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Cecilia Lobo',
+				link: 'https://www.linkedin.com/in/cecilialobo/',
 			},
 		},
 		{
