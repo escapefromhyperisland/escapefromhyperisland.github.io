@@ -13,8 +13,8 @@ const WORLD = {
 			title: 'The Hotel',
 			url: 'https://escapefromhyperisland.github.io/pleasantville/level-1',
 			author: {
-				name: '',
-				link: '',
+				name: 'Sofia Darke',
+				link: 'https://github.com/sofiadarkeweb',
 			},
 		},
 		{
