@@ -4,7 +4,6 @@ let currWorld, currLevel;
 
 const $level = document.querySelector('#level');
 const LOCAL = false;
-const DEBUG = false;
 const LOCAL_URL = 'http://localhost:8080';
 const PUBLIC_URL = 'https://escapefromhyperisland.github.io';
 const TRANSITION_TIME = 2000;
@@ -40,18 +39,17 @@ switch (worldIndex) {
 		break;
 }
 
-if (DEBUG) console.log(`worldIndex: ${worldIndex}, levelIndex: ${levelIndex}`);
-if (DEBUG) console.log(GAME);
-
-nextLevelBtn.addEventListener('click', nextLevel);
-restartLevelBtn.addEventListener('click', restartLevel);
+const pane = new Tweakpane.Pane();
+const nextLevelBtn = pane.addButton({ title: 'next level' });
+const restartLevelBtn = pane.addButton({ title: 'restart level' });
+const authorBtn = pane.addButton({ title: 'author' });
+nextLevelBtn.on('click', nextLevel);
+restartLevelBtn.on('click', restartLevel);
 
 function startGame() {
 	init();
 	setup();
 	showLevel();
-	if (DEBUG) console.log('currWorld', currWorld);
-	if (DEBUG) console.log('currLevel', currLevel);
 	setTimeout(function () {
 		document.body.classList.remove('transition');
 	}, TRANSITION_TIME);
@@ -73,12 +71,10 @@ function init() {
 		});
 	}
 	for (let world of GAME.worlds) {
-		// if (world.order === Array) {
 		world.order = [];
 		world.levels.forEach((level, index) => {
 			world.order[index] = index;
 		});
-		// }
 	}
 }
 
@@ -112,8 +108,6 @@ function nextLevel() {
 			currLevel = getLevel();
 			showLevel();
 		}
-		if (DEBUG) console.log('currWorld', currWorld);
-		if (DEBUG) console.log('currLevel', currLevel);
 	}, TRANSITION_TIME / 2);
 }
 
@@ -122,10 +116,23 @@ function showLevel() {
 	const path = currLevel.url;
 	$level.src = new URL(path, window.location.href);
 	document.title = `${currWorld.title} - ${currLevel.title}`;
-	// if (DEBUG) console.log($level.src);
+	updateAuthor();
 	setTimeout(function () {
 		document.body.classList.remove('transition');
 	}, TRANSITION_TIME);
+}
+
+function updateAuthor() {
+	authorBtn.hidden = true;
+	if (currLevel.author.name) {
+		authorBtn.hidden = false;
+		authorBtn.title = currLevel.author.name;
+	}
+	if (currLevel.author.link) {
+		authorBtn.on('click', function () {
+			window.open(currLevel.author.link, '_blank');
+		});
+	}
 }
 
 function restartLevel() {
@@ -138,7 +145,6 @@ function gameOver() {
 
 // Courtesy of https://stackoverflow.com/questions/25098021/securityerror-blocked-a-frame-with-origin-from-accessing-a-cross-origin-frame
 window.addEventListener('message', function (event) {
-	if (DEBUG) console.log(event);
 	switch (event.data) {
 		case 'nextLevel':
 			nextLevel();

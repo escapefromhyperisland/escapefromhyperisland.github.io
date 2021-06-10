@@ -13,6 +13,10 @@ iframe {
 	height: 100%;
 }
 
+html {
+	font-family: sans-serif;
+}
+
 body:before {
 	position: fixed;
 	top: 0;
@@ -30,20 +34,4 @@ body:before {
 body.transition:before {
 	opacity: 1;
 	z-index: 20;
-}
-
-menu {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	padding: 1rem;
-	z-index: 10;
-	text-transform: capitalize;
-	opacity: 0.5;
-	mix-blend-mode: luminosity;
-}
-
-menu button {
-	cursor: pointer;
-	display: inline;
 }
