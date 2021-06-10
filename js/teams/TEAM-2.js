@@ -27,7 +27,7 @@ const WORLD = {
 		},
 		{
 			title: 'The cabbin',
-			url: 'https://fannyjohaaansson.github.io/escape-room/',
+			url: 'https://escapefromhyperisland.github.io/world-2/level-4/',
 			author: {
 				name: '',
 				link: '',
