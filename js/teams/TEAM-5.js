@@ -29,8 +29,8 @@ const WORLD = {
 			title: 'The Old Lady',
 			url: 'https://escapefromhyperisland.github.io/pleasantville/level-3',
 			author: {
-				name: '',
-				link: '',
+				name: 'Elin Amrén',
+				link: 'https://github.com/elinamren',
 			},
 		},
 		{
