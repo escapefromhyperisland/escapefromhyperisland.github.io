@@ -11,7 +11,7 @@ const WORLD = {
 		},
 		{
 			title: 'Dizzy dreams',
-			url: 'https://sofiacronstrom.github.io/dizzy-dream/',
+			url: 'https://escapefromhyperisland.github.io/dizzy-dream/',
 			author: {
 				name: '',
 				link: '',
@@ -19,7 +19,7 @@ const WORLD = {
 		},
 		{
 			title: 'mordor ',
-			url: 'https://mithila91.github.io/Mordor/',
+			url: 'https://escapefromhyperisland.github.io/Mordor/',
 			author: {
 				name: '',
 				link: '',
@@ -35,7 +35,7 @@ const WORLD = {
 		},
 		{
 			title: 'spaces',
-			url: 'https://hamiat.github.io/spaces/index.html',
+			url: 'https://escapefromhyperisland.github.io/spaces/',
 			author: {
 				name: '',
 				link: '',
@@ -43,7 +43,7 @@ const WORLD = {
 		},
 		{
 			title: 'monsters under the bed ',
-			url: 'https://sumanasattar.github.io/A-frame-project/',
+			url: 'https://escapefromhyperisland.github.io/A-frame-project/',
 			author: {
 				name: '',
 				link: '',
@@ -51,7 +51,7 @@ const WORLD = {
 		},
 		{
 			title: 'candy land ',
-			url: 'https://www.supipi.nu/candy-world/',
+			url: 'https://escapefromhyperisland.github.io/candy-world/',
 			author: {
 				name: '',
 				link: '',

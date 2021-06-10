@@ -1,9 +1,9 @@
 const WORLD = {
-	title: 'Team 1',
+	title: 'Adobe World',
 	levels: [
 		{
-			title: 'Level 1',
-			url: 'https://augustthorell.github.io/three-cube/',
+			title: 'Drive for Photoshop',
+			url: 'https://escapefromhyperisland.github.io/adobe-world/level-1',
 			author: {
 				name: '',
 				link: '',
