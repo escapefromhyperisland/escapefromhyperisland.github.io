@@ -51,7 +51,7 @@ const WORLD = {
 		},
 		{
 			title: 'candy land ',
-			url: 'https://www.supipi.nu/candy-world/',
+			url: 'https://escapefromhyperisland.github.io/candy-world/',
 			author: {
 				name: '',
 				link: '',
