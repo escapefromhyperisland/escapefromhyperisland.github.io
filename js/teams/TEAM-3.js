@@ -11,7 +11,7 @@ const WORLD = {
 		},
 		{
 			title: 'Dizzy dreams',
-			url: 'https://sofiacronstrom.github.io/dizzy-dream/',
+			url: 'https://escapefromhyperisland.github.io/dizzy-dream/',
 			author: {
 				name: '',
 				link: '',
