@@ -29,7 +29,7 @@ const WORLD = {
 			title: 'hopis-nighmare ',
 			url: 'https://hyperhopi.github.io/hopis-nightmare/',
 			author: {
-				name: 'Heywon Park',
+				name: 'hyperhopi',
 				link: '',
 			},
 		},
