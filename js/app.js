@@ -66,17 +66,19 @@ function init() {
 
 	if (GAME.order === 'random') {
 		GAME.order = rarr(GAME.worlds.length);
-	} else {
+	} else if (GAME.order === Array) {
 		GAME.order = [];
 		GAME.worlds.forEach((world, index) => {
 			GAME.order[index] = index;
 		});
 	}
 	for (let world of GAME.worlds) {
+		// if (world.order === Array) {
 		world.order = [];
 		world.levels.forEach((level, index) => {
 			world.order[index] = index;
 		});
+		// }
 	}
 }
 
