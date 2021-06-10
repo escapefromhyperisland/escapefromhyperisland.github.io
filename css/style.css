@@ -32,14 +32,18 @@ body.transition:before {
 	z-index: 20;
 }
 
-button#nextLevelBtn {
+menu {
 	position: fixed;
-	bottom: 1rem;
-	left: 1rem;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
 	z-index: 10;
 	text-transform: capitalize;
 	opacity: 0.5;
 	mix-blend-mode: luminosity;
-	border-radius: 5px;
+}
+
+menu button {
 	cursor: pointer;
+	display: inline;
 }

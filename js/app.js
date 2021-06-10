@@ -4,6 +4,7 @@ let currWorld, currLevel;
 
 const $level = document.querySelector('#level');
 const LOCAL = false;
+const DEBUG = false;
 const LOCAL_URL = 'http://localhost:8080';
 const PUBLIC_URL = 'https://escapefromhyperisland.github.io';
 const TRANSITION_TIME = 2000;
@@ -39,21 +40,18 @@ switch (worldIndex) {
 		break;
 }
 
-console.log(`worldIndex: ${worldIndex}, levelIndex: ${levelIndex}`);
-console.log(GAME);
+if (DEBUG) console.log(`worldIndex: ${worldIndex}, levelIndex: ${levelIndex}`);
+if (DEBUG) console.log(GAME);
 
-// startGameBtn.addEventListener('click', startGame);
 nextLevelBtn.addEventListener('click', nextLevel);
+restartLevelBtn.addEventListener('click', restartLevel);
 
 function startGame() {
-	// let landing = document.querySelector('#landing');
-	// landing.parentNode.removeChild(landing);
-	// navigator.mediaDevices.getUserMedia({ video: true, audio: true });
 	init();
 	setup();
 	showLevel();
-	console.log('currWorld', currWorld);
-	console.log('currLevel', currLevel);
+	if (DEBUG) console.log('currWorld', currWorld);
+	if (DEBUG) console.log('currLevel', currLevel);
 	setTimeout(function () {
 		document.body.classList.remove('transition');
 	}, TRANSITION_TIME);
@@ -112,8 +110,8 @@ function nextLevel() {
 			currLevel = getLevel();
 			showLevel();
 		}
-		console.log('currWorld', currWorld);
-		console.log('currLevel', currLevel);
+		if (DEBUG) console.log('currWorld', currWorld);
+		if (DEBUG) console.log('currLevel', currLevel);
 	}, TRANSITION_TIME / 2);
 }
 
@@ -122,10 +120,14 @@ function showLevel() {
 	const path = currLevel.url;
 	$level.src = new URL(path, window.location.href);
 	document.title = `${currWorld.title} - ${currLevel.title}`;
-	// console.log($level.src);
+	// if (DEBUG) console.log($level.src);
 	setTimeout(function () {
 		document.body.classList.remove('transition');
 	}, TRANSITION_TIME);
+}
+
+function restartLevel() {
+	$level.src += '';
 }
 
 function gameOver() {
@@ -134,7 +136,7 @@ function gameOver() {
 
 // Courtesy of https://stackoverflow.com/questions/25098021/securityerror-blocked-a-frame-with-origin-from-accessing-a-cross-origin-frame
 window.addEventListener('message', function (event) {
-	console.log(event);
+	if (DEBUG) console.log(event);
 	switch (event.data) {
 		case 'nextLevel':
 			nextLevel();
@@ -143,4 +145,3 @@ window.addEventListener('message', function (event) {
 });
 
 startGame();
-// nextLevel();
