@@ -6,8 +6,8 @@ const WORLD = {
 			title: 'The Wake Up',
 			url: 'https://escapefromhyperisland.github.io/world-8/cece/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Cecilia Hallerby',
+				link: 'https://cecilia-hallerby.web.app/',
 			},
 		},
 		{
