@@ -22,7 +22,7 @@ const WORLD = {
 			title: 'The Factory',
 			url: 'https://escapefromhyperisland.github.io/world-8/malin/',
 			author: {
-				name: '',
+				name: 'Malin Olofsson',
 				link: '',
 			},
 		},
