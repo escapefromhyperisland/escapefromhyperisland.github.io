@@ -14,8 +14,8 @@ const WORLD = {
 			title: 'The Family House',
 			url: 'https://escapefromhyperisland.github.io/world8-level2/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Linnéa Gistrand',
+				link: 'https://linneagistrand.com/',
 			},
 		},
 		{
