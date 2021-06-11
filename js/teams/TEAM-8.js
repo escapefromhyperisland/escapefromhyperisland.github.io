@@ -31,7 +31,7 @@ const WORLD = {
 			url: 'https://escapefromhyperisland.github.io/world-8/elin/',
 			author: {
 				name: 'Elin Nordin',
-				link: 'www.elinnordin.com',
+				link: 'https://elinnordin.com/',
 			},
 		},
 	],
