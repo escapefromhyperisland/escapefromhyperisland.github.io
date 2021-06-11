@@ -21,8 +21,8 @@ const WORLD = {
 			title: 'The Dream',
 			url: 'https://escapefromhyperisland.github.io/pleasantville/level-2',
 			author: {
-				name: '',
-				link: '',
+				name: 'Agnes Kalström',
+				link: 'https://www.agneskalstrom.com/',
 			},
 		},
 		{
