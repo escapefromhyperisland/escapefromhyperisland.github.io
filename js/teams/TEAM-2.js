@@ -37,8 +37,8 @@ const WORLD = {
 			title: 'Itsy Bitsy Space',
 			url: 'https://escapefromhyperisland.github.io/world-2/level-5/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Karolin Frennert',
+				link: 'https://www.linkedin.com/in/karolinfrennert/',
 			},
 		},
 		{
