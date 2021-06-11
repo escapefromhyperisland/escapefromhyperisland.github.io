@@ -1,0 +1,3 @@
+# Escape from Hyper Island
+
+Stay a while and listen. You've come so far, but there is still plenty of work to be done, stories to tell, paths to travel. The world is in turmoil. Imagination, our most precious resource, is at an all-time low and the space that might need it the most has succumbed to darkness. We are trapped in the screen, in the browser, but - there's a way out. Through you, the world will once again be surprised, feel challenged, and use their imagination to move forward. Together we will build a participation-driven online escape game, with worlds and levels inspired by the history that surrounds us. Take us on your journey, provide the challenges required, and let us escape together!
