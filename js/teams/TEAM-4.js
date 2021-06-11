@@ -18,7 +18,7 @@ const WORLD = {
 			},
 		},
 		{
-			title: 'Level 4',
+			title: 'Tiny Nightmares',
 			url: 'https://aleksandraastaroth.github.io/tiny-nightmares/',
 			author: {
 				name: '',
