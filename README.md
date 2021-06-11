@@ -2,9 +2,11 @@
 
 Exploring Code is a five week dive into the weird web, as students are introduced to creative web frameworks such as WebAR, A-Frame, Tone.js, Ml5.js and more. The Frontend Developer students were challenged in building individual browser games adhering to a theme, defined by their teams. All the games were then added into a carousel game engine where one level completed leads to the next.
 
-![](cover.jpg)
-
 [PLAY THE GAME](https://escapefromhyperisland.github.io/game/)
+
+_Some levels may require a computer to solve, and a smartphone. If you get stuck, click Next Level in the bottom left, or Restart Level to reload the page._
+
+![](cover.jpg)
 
 ## Team 1
 
