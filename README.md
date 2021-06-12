@@ -24,7 +24,7 @@ _Some levels may require a computer to solve, and a smartphone. If you get stuck
 2. [Star Bores](https://adam-space-game.netlify.app)
 3. [Foggy Forest](https://escapefromhyperisland.github.io/world2-level3/)
 4. [The Cabbin](https://escapefromhyperisland.github.io/world2-level4/level-4/)
-5. [Itsy Bitsy Space](https://escapefromhyperisland.github.io/world-2/level-5/)
+5. [Itsy Bitsy Space](https://escapefromhyperisland.github.io/world-2/level-5/) by [Karolin Frennert](https://www.linkedin.com/in/karolinfrennert/)
 6. [Fly Back](https://hi-22.herokuapp.com/)
 
 ## Team 3
