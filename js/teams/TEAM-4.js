@@ -24,6 +24,7 @@ const WORLD = {
 				name: '',
 				link: '',
 			},
+		},
 		{
 			title: 'Angelo The Italian',
 			url: 'https://escapefromhyperisland.github.io/world4-level2/',
