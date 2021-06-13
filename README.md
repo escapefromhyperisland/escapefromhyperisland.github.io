@@ -46,6 +46,7 @@ _Some levels may require a computer to solve, and a smartphone. If you get stuck
 1. [Covid House](https://escapefromhyperisland.github.io/world-4/level-1/) by [Lovisa Elensky](https://clever-ride-30d95b.netlify.app/)
 2. [The Sleep Demon](https://emmy-codes.github.io/puzzle-game/) by [Emma Scott-Allen](https://www.linkedin.com/in/emma-scott-allen-86b7a6140/)
 3. [Tiny Nightmares](https://aleksandraastaroth.github.io/tiny-nightmares/)
+3. [Angelo The Italian](https://escapefromhyperisland.github.io/world4-level2/) by [Pablo Galisteo](https://www.linkedin.com/in/pablo-galisteo-295795176/)
  
 ## Team 5
 
