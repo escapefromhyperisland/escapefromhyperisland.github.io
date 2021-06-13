@@ -24,6 +24,13 @@ const WORLD = {
 				name: '',
 				link: '',
 			},
+		{
+			title: 'Angelo The Italian',
+			url: 'https://escapefromhyperisland.github.io/world4-level2/',
+			author: {
+				name: 'Pablo Galisteo',
+				link: 'https://www.linkedin.com/in/pablo-galisteo-295795176/',
+			},	
 		},
 	],
 };
