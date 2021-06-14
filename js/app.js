@@ -115,6 +115,8 @@ function showLevel() {
 	if (LOCAL) currLevel.url = currLevel.url.replace(PUBLIC_URL, LOCAL_URL);
 	const path = currLevel.url;
 	$level.src = new URL(path, window.location.href);
+	document.body.className = currLevel.title.slugify();
+	// document.body.className = `${worldIndex}${levelIndex}`;
 	document.title = `${currWorld.title} - ${currLevel.title}`;
 	updateAuthor();
 	setTimeout(function () {
