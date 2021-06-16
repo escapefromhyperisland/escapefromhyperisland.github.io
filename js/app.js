@@ -40,10 +40,12 @@ switch (worldIndex) {
 }
 
 const pane = new Tweakpane.Pane();
-const nextLevelBtn = pane.addButton({ title: 'next level' });
+if (levelIndex !== null){
+	const nextLevelBtn = pane.addButton({ title: 'next level' });
+	nextLevelBtn.on('click', nextLevel);
+}
 const restartLevelBtn = pane.addButton({ title: 'restart level' });
 const authorBtn = pane.addButton({ title: 'author' });
-nextLevelBtn.on('click', nextLevel);
 restartLevelBtn.on('click', restartLevel);
 
 function startGame() {
