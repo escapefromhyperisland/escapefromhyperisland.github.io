@@ -29,8 +29,8 @@ const WORLD = {
 			title: 'The cabbin',
 			url: 'https://escapefromhyperisland.github.io/world2-level4/level-4/',
 			author: {
-				name: '',
-				link: '',
+				name: 'Fanny Johansson',
+				link: 'https://www.linkedin.com/in/fanny-johansson-69996814a/',
 			},
 		},
 		{
