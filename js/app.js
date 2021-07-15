@@ -40,7 +40,7 @@ switch (worldIndex) {
 }
 
 const pane = new Tweakpane.Pane();
-if (levelIndex !== null){
+if (levelIndex === null){
 	const nextLevelBtn = pane.addButton({ title: 'next level' });
 	nextLevelBtn.on('click', nextLevel);
 }
