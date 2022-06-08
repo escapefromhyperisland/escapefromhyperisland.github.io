@@ -31,8 +31,8 @@ const WORLD = {
       title: "Ian",
       url: "https://escapefromhyperisland.github.io/team3-time-machine/Ian/",
       author: {
-        name: "",
-        link: "",
+        name: "Ian Wallenberg",
+        link: "https://www.ianwallenberg.com/",
       },
     },
     {
