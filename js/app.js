@@ -12,7 +12,9 @@ const urlParams = new URLSearchParams(window.location.search);
 let worldIndex = urlParams.get('world');
 let levelIndex = urlParams.get('level');
 
-switch (worldIndex) {
+worldIndex = worldIndex - 1
+
+/*switch (worldIndex) {
 	case '1':
 		worldIndex = 0;
 		break;
@@ -29,15 +31,21 @@ switch (worldIndex) {
 		worldIndex = 4;
 		break;
 	case '6':
-		alert('Nope.');
-		break;
-	case '7':
 		worldIndex = 5;
 		break;
-	case '8':
+	case '7':
 		worldIndex = 6;
 		break;
-}
+	case '8':
+		worldIndex = 7;
+		break;
+	case '8':
+		worldIndex = 8;
+		break;
+	case '9':
+		worldIndex = 9;
+		break;
+}*/
 
 const pane = new Tweakpane.Pane();
 if (levelIndex === null){
