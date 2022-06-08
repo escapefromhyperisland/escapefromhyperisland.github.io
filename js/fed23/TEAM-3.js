@@ -15,8 +15,8 @@ const WORLD = {
       title: "Sophie",
       url: "https://escapefromhyperisland.github.io/team3-time-machine/sophie/",
       author: {
-        name: "",
-        link: "",
+        name: "Sophie König",
+        link: "https://www.linkedin.com/in/norasophiekoenig/",
       },
     },
     {
