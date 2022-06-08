@@ -28,7 +28,7 @@ const WORLD = {
       },
     },
     {
-      title: "Ian",
+      title: "2082 - The Ruined Future",
       url: "https://escapefromhyperisland.github.io/team3-time-machine/Ian/",
       author: {
         name: "Ian Wallenberg",
