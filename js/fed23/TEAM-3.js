@@ -12,7 +12,7 @@ const WORLD = {
       },
     },
     {
-      title: "Sophie",
+      title: "Little Dark Age",
       url: "https://escapefromhyperisland.github.io/team3-time-machine/sophie/",
       author: {
         name: "Sophie König",
