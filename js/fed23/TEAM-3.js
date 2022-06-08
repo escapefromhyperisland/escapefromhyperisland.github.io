@@ -20,16 +20,16 @@ const WORLD = {
       },
     },
     {
-      title: "Ian",
-      url: "https://escapefromhyperisland.github.io/team3-time-machine/Ian/",
+      title: "Hannes",
+      url: "https://escapefromhyperisland.github.io/team3-time-machine/Hannes/",
       author: {
         name: "",
         link: "",
       },
     },
     {
-      title: "Hannes",
-      url: "https://escapefromhyperisland.github.io/team3-time-machine/Hannes/",
+      title: "Ian",
+      url: "https://escapefromhyperisland.github.io/team3-time-machine/Ian/",
       author: {
         name: "",
         link: "",
