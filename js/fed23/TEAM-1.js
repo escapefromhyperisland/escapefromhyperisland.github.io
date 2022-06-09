@@ -1,31 +1,17 @@
 const WORLD = {
-	title: 'Adobe World',
-	levels: [
-		{
-			title: 'Drive for Photoshop',
-			url: 'https://escapefromhyperisland.github.io/adobe-world/level-1',
-			author: {
-				name: '',
-				link: '',
-			},
-		},
-		{
-			title: 'Level 2',
-			url: 'https://escape-from-hi.herokuapp.com/',
-			author: {
-				name: '',
-				link: '',
-			},
-		},
-		{
-			title: 'Level 3',
-			url: 'https://matildabjorken.github.io/level3/',
-			author: {
-				name: '',
-				link: '',
-			},
-		},
-	],
+  title: "Chaos",
+  order: [0, 1, 2, 3, 4, 5],
+  title: "Team 1",
+  levels: [
+    {
+      title: "Trains, Oh My!",
+      url: "https://escapefromhyperisland.github.io/team1-chaos/train-problem/",
+      author: {
+        name: "Harry Yates",
+        link: "https://www.linkedin.com/in/harryjtyates/",
+      },
+    },
+  ],
 };
 
 export { WORLD };
