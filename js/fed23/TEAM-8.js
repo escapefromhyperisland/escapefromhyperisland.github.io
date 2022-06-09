@@ -1,5 +1,5 @@
 const WORLD = {
-	title: 'The Button',
+	title: 'Lost in Time',
 	order: [0, 1, 2, 3],
 	levels: [
 		{
@@ -19,11 +19,11 @@ const WORLD = {
 			},
 		},
 		{
-			title: 'The Factory',
-			url: 'https://escapefromhyperisland.github.io/world-8/malin/',
+			title: 'Medieval Mishaps',
+			url: 'https://escapefromhyperisland.github.io/fed23-world-8/ben/',
 			author: {
-				name: 'Malin Olofsson',
-				link: '',
+				name: 'Ben Ciantar',
+				link: 'https://github.com/BenCiantar',
 			},
 		},
 		{
