@@ -3,11 +3,11 @@ const WORLD = {
 	order: [0, 1, 2, 3, 4, 5, 6],
 	levels: [
 		{
-			title: 'The Intro',
-			url: 'https://escapefromhyperisland.github.io/pleasantville/level-0',
+			title: 'Escape from a loundry room',
+			url: 'https://escapefromhyperisland.github.io/FED23-team-5/Anastasiya/index.html',
 			author: {
-				name: '',
-				link: '',
+				name: 'Anastasiya Samoilenka',
+				link: 'https://github.com/AnastasiyaSamoilenkaHyper',
 			},
 		},
 		{
