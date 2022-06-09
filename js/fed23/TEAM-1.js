@@ -19,6 +19,14 @@ const WORLD = {
         link: "https://birkkensen.netlify.app",
       },
     },
+     {
+      title: "Murder in the City!",
+      url: "https://escapefromhyperisland.github.io/team1-chaos/karan-ditc",
+      author: {
+        name: "Karan Mann",
+        link: "https://karanmann.se/",
+      },
+    },
   ],
 };
 
