@@ -12,7 +12,7 @@ const urlParams = new URLSearchParams(window.location.search);
 let worldIndex = urlParams.get('world');
 let levelIndex = urlParams.get('level');
 
-worldIndex = worldIndex - 1
+if (worldIndex > 0) worldIndex = worldIndex - 1
 
 /*switch (worldIndex) {
 	case '1':
