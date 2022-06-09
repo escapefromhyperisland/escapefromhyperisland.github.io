@@ -11,6 +11,14 @@ const WORLD = {
         link: "https://www.linkedin.com/in/harryjtyates/",
       },
     },
+    {
+      title: "The Impossible Remake",
+      url: "https://escapefromhyperisland.github.io/team1-chaos/the-Impossible-remake/",
+      author: {
+        name: "Birk Kensén",
+        link: "https://birkkensen.netlify.app",
+      },
+    },
   ],
 };
 
