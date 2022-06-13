@@ -27,6 +27,14 @@ const WORLD = {
         link: "https://karanmann.se/",
       },
     },
+     {
+      title: "Untitled",
+      url: "https://escapefromhyperisland.github.io/team1-chaos/untitled/",
+      author: {
+        name: "Melker Rydman",
+        link: "https://www.linkedin.com/in/melkerydman/",
+      },
+    },
   ],
 };
 
