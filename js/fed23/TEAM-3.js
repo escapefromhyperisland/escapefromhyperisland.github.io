@@ -19,10 +19,10 @@ const WORLD = {
       },
     },
     {
-      title: "Hannes",
+      title: "Dino Island",
       url: "https://escapefromhyperisland.github.io/team3-time-machine/Hannes/",
       author: {
-        name: "",
+        name: "Hannes Wallin",
         link: "",
       },
     },
