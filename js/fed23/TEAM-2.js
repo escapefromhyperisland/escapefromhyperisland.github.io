@@ -2,11 +2,11 @@ const WORLD = {
 	title: 'Escaping HI-22',
 	levels: [
 		{
-			title: 'Hack the Vault',
+			title: 'La Gallerie',
 			url: 'https://escapefromhyperisland.github.io/world2-level1/',
 			author: {
-				name: 'Cecilia Lobo',
-				link: 'https://www.linkedin.com/in/cecilialobo/',
+				name: 'Sammy Djohari',
+				link: 'https://sammydjohari.com/',
 			},
 		},
 		{
