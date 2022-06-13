@@ -35,7 +35,7 @@ const WORLD = {
       },
     },
     {
-      title: "Anna",
+      title: "Mugen Castle",
       url: "https://escapefromhyperisland.github.io/team3-time-machine/Anna/",
       author: {
         name: "Anna Sakurai",
