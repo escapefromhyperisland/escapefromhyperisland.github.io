@@ -27,14 +27,6 @@ const WORLD = {
         link: “https://github.com/isacgw”,
       },
     },
-     {
-      title: “”,
-      url: “”,
-      author: {
-        name: “Alex”,
-        link: “”,
-      },
-    },
   ],
 };
 
