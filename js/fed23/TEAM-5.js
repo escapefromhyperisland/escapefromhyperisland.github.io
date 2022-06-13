@@ -1,7 +1,5 @@
 const WORLD = {
-  title: “Team 5”,
-  order: [0, 1, 2, 3, 4, 5],
-  title: “Team 5",
+  title: "Team5-23",
   levels: [
     {
       title: “Escape from a loundry room”,
@@ -9,7 +7,7 @@ const WORLD = {
       author: {
         name: ’Anastasiya Samoilenka”,
         link: “https://github.com/AnastasiyaSamoilenkaHyper”,
-      },
+              },
     },
     {
       title: “Golden House”,
@@ -17,7 +15,7 @@ const WORLD = {
       author: {
         name: “Sania Akbar Naz”,
         link: “https://github.com/sanianaz”,
-      },
+              },
     },
      {
       title: “Dino Kombat”,
@@ -25,7 +23,7 @@ const WORLD = {
       author: {
         name: “Isac”,
         link: “https://github.com/isacgw”,
-      },
+              },
     },
   ],
 };
