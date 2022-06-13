@@ -1,5 +1,5 @@
 const WORLD = {
-	title: 'Escaping HI-22',
+	title: 'Escaping HI-23',
 	levels: [
 		{
 			title: 'La Gallerie',
