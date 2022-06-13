@@ -1,7 +1,6 @@
 const WORLD = {
   title: "Time-machine",
   order: [0, 1, 2, 3, 4],
-  title: "Team 3",
   levels: [
     {
       title: "Steampunk time",
