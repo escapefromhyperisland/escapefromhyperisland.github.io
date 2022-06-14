@@ -34,6 +34,14 @@ const WORLD = {
         link: "https://www.linkedin.com/in/melkerydman/",
       },
     },
+    {
+      title: "Escaping Duck",
+      url: "https://escapefromhyperisland.github.io/team1-chaos/escaping-duck/",
+      author: {
+        name: "Valeria Shadrina",
+        link: "https://valeria-shadrina.netlify.app",
+      },
+    },
   ],
 };
 
