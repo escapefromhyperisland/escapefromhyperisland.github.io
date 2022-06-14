@@ -34,13 +34,13 @@ switch (worldIndex) {
 		worldIndex = 5;
 		break;
 	case '7':
-		worldIndex = 6;
+		worldIndex = 5;
 		break;
 	case '8':
-		worldIndex = 7;
+		worldIndex = 6;
 		break;
 	case '9':
-		worldIndex = 8;
+		worldIndex = 7;
 		break;
 }
 
