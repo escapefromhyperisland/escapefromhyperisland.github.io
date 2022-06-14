@@ -12,7 +12,7 @@ const WORLD = {
     },
     {
       title: "3D-CRAB-SMASH",
-      url: "https://escapefromhyperisland.github.io/team6-beach-games/RichiGame/",
+      url: "https://escapefromhyperisland.github.io/team6-beach-games/richi2/",
       author: {
         name: "Richard Kennedy",
         link: "https://www.linkedin.com/in/richard-kennedy-818863ba/",
