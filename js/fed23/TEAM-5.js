@@ -17,6 +17,15 @@ const WORLD = {
         link: "https://github.com/sanianaz",
               },
     },
+    
+      {
+      title: "Shooting Game",
+      url: "https://escapefromhyperisland.github.io/FED23-team-5/JintDas/GameStart.html",
+      author: {
+        name: "Jinto",
+        link: "https://github.com/jintodas",
+              },
+    },
      {
       title: "Dino Kombat",
       url: "https://escapefromhyperisland.github.io/FED23-team-5/Isac/index.html",
