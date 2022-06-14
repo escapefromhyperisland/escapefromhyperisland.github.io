@@ -1,6 +1,5 @@
 const WORLD = {
   title: "Chaos",
-  order: [0, 1, 2, 3, 4, 5],
   title: "Team 1",
   levels: [
     {
