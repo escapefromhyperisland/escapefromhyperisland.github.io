@@ -9,6 +9,14 @@ const WORLD = {
 				link: 'https://sammydjohari.com/',
 			},
 		},
+		{
+			title: 'Le Bar',
+			url: 'https://escapefromhyperisland.github.io/FED23-Team2-La-Maison-Sainte/Johan-LeBar/',
+			author: {
+				name: 'Johan Klingström',
+				link: 'https://johanklingstrom.netlify.app',
+			},
+		},
 	],
 };
 
