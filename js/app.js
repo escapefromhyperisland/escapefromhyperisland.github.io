@@ -12,7 +12,7 @@ const urlParams = new URLSearchParams(window.location.search);
 let worldIndex = urlParams.get('world');
 let levelIndex = urlParams.get('level');
 
-//if (worldIndex > 0) worldIndex = worldIndex - 1
+if (levelIndex > 0) levelIndex = levelIndex - 1
 
 switch (worldIndex) {
 	case '1':
@@ -34,13 +34,13 @@ switch (worldIndex) {
 		worldIndex = 5;
 		break;
 	case '7':
-		worldIndex = 5;
-		break;
-	case '8':
 		worldIndex = 6;
 		break;
-	case '9':
+	case '8':
 		worldIndex = 7;
+		break;
+	case '9':
+		worldIndex = 8;
 		break;
 }
 
