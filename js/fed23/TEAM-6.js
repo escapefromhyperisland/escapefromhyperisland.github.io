@@ -1,29 +1,38 @@
 const WORLD = {
-  title: "Team5-23",
+  title: "Beach",
+  order: [0, 1, 2, 3],
   levels: [
     {
-      title: "Escape from a loundry room",
-      url: "https://escapefromhyperisland.github.io/FED23-team-5/Anastasiya/index.html",
+      title: "Beach Mystery",
+      url: "https://escapefromhyperisland.github.io/team6-beach-games/game/",
       author: {
-        name: "Anastasiya Samoilenka",
-        link: "https://github.com/AnastasiyaSamoilenkaHyper",
-              },
+        name: "Julia Wos",
+        link: "https://juliawos-portfolio.netlify.app/",
+      },
     },
     {
-      title: "Golden House",
-      url: "https://escapefromhyperisland.github.io/FED23-team-5/Sania/index.html",
+      title: "3D-CRAB-SMASH",
+      url: "https://escapefromhyperisland.github.io/team6-beach-games/RichiGame/",
       author: {
-        name: "Sania Akbar Naz",
-        link: "https://github.com/sanianaz",
-              },
+        name: "Richard Kennedy",
+        link: "https://www.linkedin.com/in/richard-kennedy-818863ba/",
+      },
     },
      {
-      title: "Dino Kombat",
-      url: "https://escapefromhyperisland.github.io/FED23-team-5/Isac/index.html",
+      title: "Escaping hyperisland",
+      url: "https://escapefromhyperisland.github.io/team6-beach-games/ola",
       author: {
-        name: "Isac",
-        link: "https://github.com/isacgw",
-              },
+        name: "Olabinjo Muyiwa",
+        link: "https://www.linkedin.com/in/muyiwa-olabinjo-01a657228/",
+      },
+    },
+     {
+      title: "Beach Game",
+      url: "https://escapefromhyperisland.github.io/team6-beach-games/egiiiiil",
+      author: {
+        name: "Egil Swenning Leyser",
+        link: "https://egilswenningleyser.dev/",
+      },
     },
   ],
 };
